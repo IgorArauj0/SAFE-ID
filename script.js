@@ -29,7 +29,7 @@ function mudarOutraImagem(imagem) {
 
 
 const typed = new Typed (".auto-type",{
-    strings: ["HTML", "CSS", "Javascript", "GitHub", "Node JS", "React", "Venha fazer parte deste Time!",],
+    strings: ["HTML", "CSS", "Javascript", "React", "PHP", "MySQL", "GitHub", "Python", "Venha fazer parte deste Time!",],
     typeSpeed: 120,
     backSpeed: 30,
     

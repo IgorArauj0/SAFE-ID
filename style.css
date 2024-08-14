@@ -32,7 +32,7 @@ header {
 }
 
 header img {
-    width: 10%;
+    width: 6.8%;
     margin: 0.5rem;
 }
 
@@ -170,7 +170,9 @@ h3 {
 }
 
 .itens-secao b {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    
 }
 
 .img-secao {
@@ -187,6 +189,12 @@ h3 {
     font-size: 4rem;
     margin: 1.8rem 1.6rem;
 }
+
+
+.icone-segundo i {
+  margin-left: 2.3rem;
+}
+
 
 
 .container {
@@ -278,19 +286,32 @@ section {
     min-height: 100vh;
 }
 
+.hidden img {
+    background-color: rgb(124, 126, 126);
+    padding: 2rem;
+    cursor: pointer;
+    opacity: 1;
+}
 
+.hidden img:hover{
+opacity: 0.3;
+transition: 0.5s;
+}
 
 .hidden {
-    opacity: 0;
+    opacity: 0.2;
     filter: blur(15px);
     transition: all 1.5s;
     transform: translateX(-100%);
-
+    
 }
 
 .section-04 {
-    min-height: 100vh;
-    background-color: black;
+    margin-top: 8rem;
+    background-image: url(IMAGENS/apple-1853259_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -358,17 +379,34 @@ footer h2 {
     font-size: 1.6rem;
 }
 
-.sociais {
-   
-}
 
+
+.div-line {
+    display: flex;
+    flex-direction: column;
+}
+.div-line img {
+    width: 7rem;
+}
 
 .line {
-    width: 10rem;
+    width: 9rem;
+    
 }
 
-.div-sociais i {
+.div-sociais a i {
   font-size: 40px;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-left: 5px;
+}
+
+.div-sociais a i:hover{
+    background-color: purple;
+    transition: 0.8s;
+    cursor: pointer;
 }
 
 .div-sociais {
@@ -376,3 +414,8 @@ footer h2 {
     justify-content: space-evenly;
     margin: 2rem;
 }
+
+.listas-footer ul li {
+  margin-bottom: 0.8rem;
+}
+
