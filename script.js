@@ -29,10 +29,11 @@ function mudarOutraImagem(imagem) {
 
 
 const typed = new Typed (".auto-type",{
-    strings: ["HTML", "CSS", "Javascript", "React", "PHP", "MySQL", "GitHub", "Python", "Venha fazer parte deste Time!",],
+    strings: ["HTML", "CSS", "Javascript"],
     typeSpeed: 120,
     backSpeed: 30,
-    
+    loop: true,
+    showCursor: false  // Oculta o cursor de digitação
 } );
 
 

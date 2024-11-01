@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typed.js Example</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <style>
+        header {
+            background-color: aquamarine;
+            padding: 5vh;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+
+        <!-- Elemento onde o efeito de digitação aparecerá -->
+        <h1 id="typed-text"></h1>
+        
+    </header>
+    <!-- Incluindo Typed.js via CDN -->
+    
+
+    <!-- Script de inicialização -->
+    <script>
+        const typed = new Typed('#typed-text', {
+            strings: ["Olá, bem-vindo!", "Typed.js está funcionando!"],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+                    
+
+            //fadeOut: true,          // Efeito de fade-out ao apag(opcional)
+            //showCursor: false  // Oculta o cursor de digitação
+        });
+    </script>
+</body>    
+</html>
